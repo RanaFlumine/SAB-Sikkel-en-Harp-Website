@@ -76,6 +76,8 @@ const upcomingEvents = events.filter(event => {
 
 console.log("Upcoming events:", upcomingEvents);
 
+console.log("Parsed campaigns:", campaigns);
+
 // Sort the filtered events by date (most recent first)
 upcomingEvents.sort((a, b) => parseDate(b.date) - parseDate(a.date));
 
@@ -102,7 +104,7 @@ const agendaHtml = `
     <header-component></header-component>
     <div class="content">
         <p>
-            Hallo griezel! Hier zie je de agenda voor de komende tijd. De locatie wordt doorgestuurd in de groepsapp van Het Spook. Als je nog geen lid bent en je wilt een keer komen kijken, stuur dan op instagram een DM naar ons en we nodigen je vrijblijvend uit!
+            Agenda:
         </p>
         <br>
     
@@ -141,7 +143,7 @@ const campaignsHtml = `
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Agenda - S.A.B. Sikkel en Harp</title>
+    <title>Campaigns - S.A.B. Sikkel en Harp</title>
     <meta name="description" content="">
     <meta name="og:description" content="">
     <link rel="stylesheet" href="/files/css/stylesheet.css">
@@ -157,16 +159,15 @@ const campaignsHtml = `
     <header-component></header-component>
     <div class="content">
         <p>
-            
+            Campaigns:
         </p>
         <br>
     
         <div id="events-container">
-            ${upcomingEvents.map(event => `
+            ${campaigns.map(event => `
             <br>
             <div class="event">
                 <div class="event-title">${event.name}</div>
-                <div class="event-date">${formatDate(parseDate(event.date))}</div>
                 <div class="event-description">${event.description}</div>
             </div>
             `).join('')}
@@ -181,7 +182,7 @@ const campaignsHtml = `
 console.log("Generated HTML:", campaignsHtml);
 
 // Write the generated HTML to the agenda folder
-const campaignFolderDir = path.join(__dirname, 'agenda');
+const campaignFolderDir = path.join(__dirname, 'campaigns');
 if (!fs.existsSync(campaignFolderDir)) {
     fs.mkdirSync(campaignFolderDir);
 }
