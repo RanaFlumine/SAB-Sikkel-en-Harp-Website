@@ -8,16 +8,16 @@ html {
 
 
 a {
-    color: var(--spook_white);
+    color: var(--custom_white);
 }
 
 body {
-    background-color: var(--spook_red);
-    color: var(--spook_white);
+    background-color: var(--custom_red);
+    color: var(--custom_white);
 }
 
 hr {
-    color: var(--spook_white);
+    color: var(--custom_white);
     width: 80%;
 }
 
@@ -40,12 +40,12 @@ footer {
     height: 150px;
     margin-right: 25px;
     margin: 0px;
-    background-color: var(--spook_red);
+    background-color: var(--custom_red);
 }
 
 .header-button {
     text-decoration: none;
-    color: var(--spook_white);
+    color: var(--custom_white);
     font-size: 25px;
     padding: 35px 20px;
     margin-left: 10px;
@@ -58,13 +58,13 @@ footer {
 }
 
 .header-button:hover {
-    background-color: var(--spook_white);
-    color: var(--spook_red);
+    background-color: var(--custom_white);
+    color: var(--custom_red);
 }
 
 .header-button:hover {
-    background-color: var(--spook_white);
-    color: var(--spook_red);
+    background-color: var(--custom_white);
+    color: var(--custom_red);
 
 }
 
@@ -106,8 +106,8 @@ footer {
 }
 
 .footer-div a:hover {
-    background-color: var(--spook_white);
-    color: var(--spook_red);
+    background-color: var(--custom_white);
+    color: var(--custom_red);
 }
 
 /*
@@ -117,7 +117,7 @@ Events in agenda page
 .event {
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid var(--spook_white);
+    border: 1px solid var(--custom_white);
     border-radius: 5px;
 }
 
@@ -127,7 +127,7 @@ Events in agenda page
 }
 
 .event-date {
-    color: var(--spook_white);
+    color: var(--custom_white);
     margin-bottom: 10px;
 }
 
