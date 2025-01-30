@@ -1,0 +1,136 @@
+@import url(colors.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: "PT serif", serif;
+    cursor: url('/files/img/spook-32x32.png') 7 3, auto;
+}
+
+
+a {
+    color: var(--spook_white);
+}
+
+body {
+    background-color: var(--spook_red);
+    color: var(--spook_white);
+}
+
+hr {
+    color: var(--spook_white);
+    width: 80%;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.header-img {
+    height: 150px;
+    margin-right: 25px;
+    margin: 0px;
+    background-color: var(--spook_red);
+}
+
+.header-button {
+    text-decoration: none;
+    color: var(--spook_white);
+    font-size: 25px;
+    padding: 35px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    border-radius: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header-button:hover {
+    background-color: var(--spook_white);
+    color: var(--spook_red);
+}
+
+.header-button:hover {
+    background-color: var(--spook_white);
+    color: var(--spook_red);
+
+}
+
+.content {
+    margin: auto;
+    text-align: justify;
+    font-size: 17px;
+    min-width: 40%;
+    max-width: 320px;
+}
+
+.content img {
+    width: 100%; /* Make the image fill the width of the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-div {
+    display: flex; 
+    width: fit-content;
+    justify-self: center;
+    align-items: top;
+    font-size: 20px;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+.footer-div > * {
+    margin: 0px;
+    margin-right: 50px;
+}
+
+.footer-div img {
+    align-self: center;
+}
+
+.footer-div a:hover {
+    background-color: var(--spook_white);
+    color: var(--spook_red);
+}
+
+/*
+Events in agenda page
+*/
+
+.event {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid var(--spook_white);
+    border-radius: 5px;
+}
+
+.event-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.event-date {
+    color: var(--spook_white);
+    margin-bottom: 10px;
+}
+
+.event-description {
+    white-space: pre-wrap; /* Preserve line breaks in the description */
+}
