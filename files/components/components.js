@@ -38,7 +38,7 @@ class Footer extends HTMLElement {
           <br>
           <a target="_blank" href="https://instagram.com/sikkelenharp">Instagram</a>
           <br>
-          <a target="_blank" href="">Discord</a>
+          <a target="_blank" href="https://discord.gg/dgraWb2e">Discord</a>
           <br>
           <a href="/lidworden/">Wordt lid!</a>
         </p>

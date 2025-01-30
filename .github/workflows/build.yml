@@ -35,7 +35,7 @@ jobs:
         git config --global user.email 'actions@github.com'
         git add agenda/index.html || true  # Add the agenda file, if present
         git add campaigns/index.html || true # Add the campaigns file, if present
-        git commit -m "Update agenda and campaigns page [skip ci]" || echo "No changes to commit"
+        git commit -m "[Auto] Update agenda and campaigns page [skip ci]" || echo "No changes to commit"
         git push origin HEAD:${{ github.ref_name }} || echo "Nothing to push"
         cat agenda/index.html || echo "Agenda file not found"
         cat campaigns/index.html || echo "Campaigns file not found"
