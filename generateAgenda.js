@@ -104,10 +104,10 @@ const agendaHtml = `
     <header-component></header-component>
     <div class="content">
         <p>
-            One-shots:
-            Atleast twice a year, we host an open event where we play a one-shot adventure. These are short, self-contained sessions that are perfect for getting to know new systems, stories, and players. Whether you want to try out a new TTRPG system or just enjoy an evening of action and creativity, our one-shots are accessible and open to everyone.
+            <h2>One-shots</h2>
+            Atleast twice a year, we host an open event where we play a one-shot adventure. These are short, self-contained sessions that are perfect for getting to know new systems, stories, and players. Whether you want to try out a new TTRPG system or just enjoy an evening of action and creativity, our one-shots are accessible and open to everyone.<br>
 
-            Tenminste twee keer per jaar organiseren we een open evenement waarin we een one-shot avontuur spelen. Dit zijn kortdurende, op zichzelf staande sessies die perfect zijn om kennis te maken met nieuwe systemen, verhalen en spelers. Of je nu even wil proeven van een nieuw TTRPG-systeem of gewoon een avondje vol actie en creativiteit zoekt, onze one-shots zijn laagdrempelig en open voor iedereen.
+            Tenminste twee keer per jaar organiseren we een open evenement waarin we een one-shot avontuur spelen. Dit zijn kortdurende, op zichzelf staande sessies die perfect zijn om kennis te maken met nieuwe systemen, verhalen en spelers. Of je nu even wil proeven van een nieuw TTRPG-systeem of gewoon een avondje vol actie en creativiteit zoekt, onze one-shots zijn laagdrempelig en open voor iedereen.<br>
         </p>
         <br>
     
@@ -162,10 +162,10 @@ const campaignsHtml = `
     <header-component></header-component>
     <div class="content">
         <p>
-            Campaigns
-            We organize long-term campaigns that last for six months. Campaigns offer the opportunity to dive deeper into a story, develop your character, and experience an immersive adventure with your group. To join a campaign, you must be a member of our Discord server or WhatsApp community. Each campaign has its own setting, rule system, and schedule, so there is always a story that suits your play style!
+            <h2>Campaigns</h2>
+            We organize long-term campaigns that last for six months. Campaigns offer the opportunity to dive deeper into a story, develop your character, and experience an immersive adventure with your group. To join a campaign, you must be a member of our Discord server or WhatsApp community. Each campaign has its own setting, rule system, and schedule, so there is always a story that suits your play style!<br>
 
-            We organiseren langdurige campaigns die een half jaar duren. Campaigns bieden de kans om dieper in een verhaal te duiken, je personage te ontwikkelen en samen met je groep een meeslepend avontuur te beleven. Om deel te nemen aan een campaign, moet je lid zijn van onze Discord-server of WhatsApp-community. Elke campaign heeft een eigen setting, regelsysteem en speelschema, dus er is altijd wel een verhaal dat bij jouw speelstijl past!
+            We organiseren langdurige campaigns die een half jaar duren. Campaigns bieden de kans om dieper in een verhaal te duiken, je personage te ontwikkelen en samen met je groep een meeslepend avontuur te beleven. Om deel te nemen aan een campaign, moet je lid zijn van onze Discord-server of WhatsApp-community. Elke campaign heeft een eigen setting, regelsysteem en speelschema, dus er is altijd wel een verhaal dat bij jouw speelstijl past!<br>
         </p>
         <br>
     
