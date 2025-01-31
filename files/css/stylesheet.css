@@ -37,6 +37,7 @@ footer {
 
 .header-img {
     height: 100px;
+    width: 100px;
     margin-right: 25px;
     margin: 0px;
     background-color: var(--custom_red);
@@ -73,6 +74,11 @@ footer {
     font-size: 17px;
     min-width: 40%;
     max-width: 320px;
+}
+
+.content a:hover {
+    background-color: var(--custom_white);
+    color: var(--custom_red);
 }
 
 .content img {
