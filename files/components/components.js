@@ -28,6 +28,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <br>
     <hr>
     <footer>
       <div class="footer-div">
