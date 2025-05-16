@@ -88,9 +88,10 @@ const agendaHtml = `
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welkom bij de evenementenagenda van S.A.B. Sikkel & Harp! Hier vindt je onze aankomende openbare evenementen!">
+    <meta name="og:description" content="De agenda voor de aankomende evenementen van S.A.B. Sikkel & Harp.">
+    <meta name="robots" content="index, follow">
     <title>Agenda - S.A.B. Sikkel en Harp</title>
-    <meta name="description" content="">
-    <meta name="og:description" content="">
     <link rel="stylesheet" href="/files/css/stylesheet.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/files/img/logo-32x32.png">
     <script src="/files/components/components.js" type="text/javascript" defer></script>
@@ -146,9 +147,10 @@ const campaignsHtml = `
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welkom bij de aanmeldpagina voor de campaigns van S.A.B. Sikkel & Harp! Hier vindt je onze huidige campaigns!">
+    <meta name="og:description" content="De aanmeldpagina voor de campaigns van S.A.B. Sikkel & Harp.">
+    <meta name="robots" content="index, follow">
     <title>Campaigns - S.A.B. Sikkel en Harp</title>
-    <meta name="description" content="">
-    <meta name="og:description" content="">
     <link rel="stylesheet" href="/files/css/stylesheet.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/files/img/logo-32x32.png">
     <script src="/files/components/components.js" type="text/javascript" defer></script>
