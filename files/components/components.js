@@ -47,10 +47,6 @@ class Footer extends HTMLElement {
         <p>
           Socialistische Cultuur:
           <br>
-          <a target="_blank" href="https://annieromein.nl">S.S.V.G. Annie Romein</a>
-          <br>
-          <a target="_blank" href="https://janromein.nl">S.S.V.G. Jan Romein</a>
-          <br>
           <a target="_blank" href="https://ssvhetspook.nl">S.S.V. Het Spook</a>
           <br>
           <a target="_blank" href="https://instagram.com/hetrodewieltje_nijmegen">Het Rode Wieltje</a>
@@ -60,6 +56,8 @@ class Footer extends HTMLElement {
           Onze vrienden:
           <br>
           <a target="_blank" href="https://derodelap.nl">De Rode Lap</a>
+          <br>
+          <a target="_blank" href="https://rsp.nu">Revolutionair Socialistische Partij</a>
           <br>
           <a target="_blank" href="https://roodjongeren.nl">ROOD, Socialistische Jongeren</a>
         </p>
